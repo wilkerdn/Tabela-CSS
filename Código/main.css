@@ -1,0 +1,71 @@
+#tabela1{
+    border-style: double;
+    border-color: red;
+    border-width: 2px;
+}
+#tabela1 tr th{
+    border-style: double;
+    border-color: red;
+    border-width: 2px;
+}
+
+#tabela2{
+    margin-top: 20px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: red;
+    border-width: 2px;
+    width: 100%;
+}
+#tabela2 tr th{
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: red;
+    border-width: 2px;
+}
+
+#tabela3{
+    margin-top: 30px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+    border-color: red;
+    border-width: 2px;
+    width: 100%;
+}
+#tabela3 tr th{
+    border-style: solid;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+    border-color: red;
+    border-width: 2px;
+}
+
+#tabela4{
+    margin-top: 20px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: black;
+    border-width: 2px;
+    width: 100%;
+}
+
+#tabela4 tr th{
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: black;
+    border-width: 2px;
+    background-color: lightgrey;
+}
+#tabela4 thead tr th{
+    color: red;
+    font-weight: bold;
+}
+#tabela4 tbody tr th{
+    color: green;
+}
+#tabela4 thead tr th:hover, #tabela4 tbody tr th:hover{
+    background-color: lightsalmon;
+}
